@@ -1,0 +1,24 @@
+.home {
+    @include flexCenter(column);
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../images/home_banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: $beige;
+    font-family: $primary-font;
+    letter-spacing: 2px;
+
+    #{&}_info {
+        padding-left: 60%;
+        padding-top: 15%;
+        @include flexCenter(column);
+    }
+
+    #{&}_info_name{
+        font-size: 48px;
+        margin: 8px;
+    }
+}
+
+

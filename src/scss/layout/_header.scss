@@ -1,0 +1,37 @@
+.header {
+    background-color: $beige;
+    @include flexBetween;
+    padding: 10px 24px;
+    letter-spacing: 2px;
+    font-family: $highlight-font;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: $strong;
+
+    #{&}_logo {
+        font-size: 24px;
+        background-color: $brown;
+        padding: 10px;
+        border-radius: 50%;
+
+        a {
+            color: $beige;
+        }
+    }
+
+    #{&}_nav {
+        @include flexCenter(row);
+        gap: 32px; 
+
+        a {
+            padding: 4px 12px;
+            border-radius: 16px;
+            transition: 0.25s all ease-in;
+        }
+        a:hover {
+            background-color: $brown;
+            color: $beige;
+        }
+    }
+
+}
