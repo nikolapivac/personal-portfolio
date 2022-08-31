@@ -1,23 +1,33 @@
 .home {
-    @include flexCenter(column);
+    @include flexBetween;
+    padding: 0 18%;
     width: 100vw;
     height: 100vh;
-    background-image: url("../../images/home_banner.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: $beige;
+    color: $base;
     font-family: $primary-font;
     letter-spacing: 2px;
 
     #{&}_info {
-        padding-left: 60%;
-        padding-top: 15%;
         @include flexCenter(column);
     }
 
     #{&}_info_name{
-        font-size: 48px;
+        font-size: 60px;
+        margin: 0;
+    }
+
+    #{&}_info_job,
+    #{&}_info_asp {
+        font-size: 20px;
         margin: 8px;
+    }
+
+    #{&}_image {
+        img {
+            width: 450px;
+            height: auto;
+        }
+        
     }
 }
 

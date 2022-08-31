@@ -1,18 +1,18 @@
 .home_info_btn {
     padding: 8px 16px;
-    margin-top: 8px;
+    margin-top: 16px;
     font-family: $highlight-font;
     font-size: 24px;
-    background-color: $brown;
-    color: $beige;
-    border: 1px solid $beige;
+    background-color: $highlight;
+    color: $base;
+    border: 1px solid $base;
     border-radius: 16px;
     transition: 0.5s all ease-in-out;
 
     &:hover {
         cursor: pointer;
-        background-color: $beige;
-        color: $brown;
-        border: 1px solid $brown;
+        background-color: $base;
+        color: $highlight;
+        border: 1px solid $highlight;
     }
 }

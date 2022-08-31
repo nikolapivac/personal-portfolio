@@ -1,28 +1,28 @@
 .footer {
-    background-color: $beige;
+    background-color: $base;
     @include flexCenter(column);
     padding: 30px;
     letter-spacing: 2px;
     font-family: $highlight-font;
     font-weight: bold;
     gap: 8px;
-    color: $brown;
+    color: $highlight;
 
     #{&}_socials {
         @include flexBetween;
-        gap: 16px;
+        gap: 10px;
 
         a {
             font-size: 28px;
-            color: $brown;
+            color: $highlight;
             padding: 6px 8px;
-            border-radius: 50%;
+            border-radius: 20%;
             transition: 0.25s all ease-in;
         }
 
         a:hover{
-            background-color: $brown;
-            color: $beige; 
+            background-color: $highlight;
+            color: $base; 
         }
     }
 }
