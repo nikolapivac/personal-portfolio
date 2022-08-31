@@ -5,10 +5,11 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import "./scss/App.scss";
 
 const App = () => {
   return (
-    <BrowserRouter basename="/personal-portfolio/">
+    <BrowserRouter>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
