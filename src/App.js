@@ -10,7 +10,7 @@ import projects from "./ProjectList";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/personal-portfolio/">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
