@@ -23,15 +23,24 @@
         @include flexCenter(row);
         gap: 32px; 
 
+        ul {
+            @include flexBetween;
+            gap: 16px;
+        }
+
         a {
             padding: 4px 12px;
             border-radius: 8px;
             transition: 0.25s all ease-in;
         }
+
         a:hover {
             background-color: $highlight;
             color: $base;
         }
-    }
 
+        @media only screen and (max-width: $mobile-breakpoint) {
+            display:none;
+        }
+    }
 }

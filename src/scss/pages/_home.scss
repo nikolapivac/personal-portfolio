@@ -7,6 +7,11 @@
     font-family: $primary-font;
     letter-spacing: 2px;
 
+    @media screen and (max-width: $tablet-breakpoint) {
+        @include flexCenter(column);
+        gap: 10%;
+    }
+
     #{&}_info {
         @include flexCenter(column);
     }
@@ -15,20 +20,31 @@
         font-size: 60px;
         color: $highlight;
         margin: 0;
+
+        @media screen and (max-width: $mobile-breakpoint) {
+            font-size: 40px;
+        }
     }
 
     #{&}_info_job,
     #{&}_info_asp {
         font-size: 20px;
         margin: 8px;
+
+        @media screen and (max-width: $mobile-breakpoint) {
+            font-size: 16px;
+        }
     }
 
     #{&}_image {
         img {
             width: 450px;
             height: auto;
+
+            @media screen and (max-width: $mobile-breakpoint) {
+                width: 280px;
+            }
         }
-        
     }
 }
 
