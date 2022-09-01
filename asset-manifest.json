@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.f18f4f55.css",
+    "main.js": "/personal-portfolio/static/js/main.2b17d49b.js",
+    "static/media/weatherapp.png": "/personal-portfolio/static/media/weatherapp.ff66e82a91a2224eef2e.png",
+    "static/media/memory.png": "/personal-portfolio/static/media/memory.aaf9b87336c093801c66.png",
+    "static/media/portfolio.png": "/personal-portfolio/static/media/portfolio.db5c01aaa7d91dc18a12.png",
+    "static/media/Todo.png": "/personal-portfolio/static/media/Todo.0439892c9ae7a5147f47.png",
+    "static/media/calculator.png": "/personal-portfolio/static/media/calculator.fb86a987976e2c75d5e7.png",
+    "static/media/wineshop.png": "/personal-portfolio/static/media/wineshop.f8360353cc3940bbc1d5.png",
+    "static/media/CV.png": "/personal-portfolio/static/media/CV.7bb65ccb497899b797f9.png",
+    "static/media/library.png": "/personal-portfolio/static/media/library.17d6f638b7612099d7f4.png",
+    "static/media/home.webp": "/personal-portfolio/static/media/home.800eed00a8de0b083d99.webp",
+    "index.html": "/personal-portfolio/index.html",
+    "main.f18f4f55.css.map": "/personal-portfolio/static/css/main.f18f4f55.css.map",
+    "main.2b17d49b.js.map": "/personal-portfolio/static/js/main.2b17d49b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f18f4f55.css",
+    "static/js/main.2b17d49b.js"
+  ]
+}
