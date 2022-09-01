@@ -12,6 +12,10 @@
         padding: 16px 32px;
         border-radius: 16px;
         gap: 20px;
+
+        @media screen and (max-width: $mobile-breakpoint) {
+            width: 90%;
+        }
         
         h1{
             font-family: $highlight-font;
