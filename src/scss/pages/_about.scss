@@ -1,0 +1,67 @@
+.about {
+    padding: 5% 20%;
+    @media screen and (max-width: 500px) {
+        padding: 5% 10%;
+    }
+    a {
+        color: $base-s;
+        &:hover{
+            color: $highlight;
+        }
+    }
+    h1 {
+        font-family: $highlight-font;
+        letter-spacing: 3px;
+        font-size: 3em;
+        color: $highlight;
+    }
+    #{&}_info{
+        p {
+            font-family: $primary-font;
+            letter-spacing: 1px;
+            font-size: 20px;
+        }
+    }
+
+    #{&}_skills{
+        h2 {
+            font-family: $highlight-font;
+            letter-spacing: 2px;
+            font-size: 1.5em;
+            color: $base-s;
+        }
+
+        .lt_icon {
+            font-size: 48px;
+            color: $base-s;
+        }
+
+        p {
+            font-family: $primary-font;
+            letter-spacing: 1px;
+            font-size: 1em;
+            color: $highlight;
+        }
+
+        .lt_items {
+            @include grid3x3;
+            margin: 48px;
+            @media screen and (max-width:500px) {
+                margin: 48px 8px;
+            }
+        }
+
+        .lt_item{
+            @include flexCenter(column);
+            margin-bottom: 16px;
+        }
+    }
+
+    #{&}_future {
+        p {
+            font-family: $primary-font;
+            letter-spacing: 1px;
+            font-size: 20px;
+        }
+    }
+}
