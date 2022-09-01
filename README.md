@@ -15,4 +15,4 @@ Part of The Odin Project, made to showcase projects and exercise use of Sass.
 
 ## Preview
 
-Results can be seen [here]("").
+Results can be seen [here]("https://nikolapivac.github.io/personal-portfolio/").
