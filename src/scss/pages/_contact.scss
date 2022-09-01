@@ -10,7 +10,7 @@
         background-color: $base-o;
         box-shadow: $subtle;
         padding: 16px 32px;
-        border-radius: 16px;
+        border-radius: 6px;
         gap: 20px;
 
         @media screen and (max-width: $mobile-breakpoint) {
@@ -21,6 +21,7 @@
             font-family: $highlight-font;
             color: $highlight;
             font-size: 32px;
+            text-shadow: 1px 1px rgb(0,0,0,0.3);
         }
 
         p {
