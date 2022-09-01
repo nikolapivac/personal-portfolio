@@ -1,0 +1,39 @@
+.projects {
+    padding: 5% 10%;
+    #{&}_title {
+        font-family: $highlight-font;
+        letter-spacing: 2px;
+        font-size: 48px;
+        color: $highlight;
+    }
+    #{&}_container{
+        @include flexCenter(column);
+    }
+}
+
+.project_card {
+    @include flexBetween;
+    gap: 48px;
+    margin: 32px 0;
+    #{&}_image{
+        width: 400px;
+        height: auto;
+        border: 3px solid $highlight;
+        border-radius: 8px;
+    }
+
+    #{&}_info {
+        @include flexBetweenCol;
+        font-family: $primary-font;
+        h1 {
+            color: $base-s;
+            letter-spacing: 2px;
+            margin: 0;
+        }
+        p {
+            color: $highlight;
+            margin: 8px 0;
+            letter-spacing: 1px;
+        }
+    }
+}

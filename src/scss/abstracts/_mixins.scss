@@ -11,6 +11,12 @@
     align-items: center;
 }
 
+@mixin flexBetweenCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 @mixin grid3x3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

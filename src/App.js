@@ -6,6 +6,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import "./scss/App.scss";
+import projects from "./ProjectList";
 
 const App = () => {
   return (
@@ -14,7 +15,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-me" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route path="/projects" element={<Projects projects={projects} />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />

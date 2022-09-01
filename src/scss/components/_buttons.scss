@@ -16,3 +16,23 @@
         border: 1px solid $highlight;
     }
 }
+
+.card_btn{
+    padding: 8px 16px;
+    margin-top: 8px;
+    margin-right: 8px;
+    font-family: $primary-font; 
+    font-size: 16px;
+    background-color: $highlight;
+    color: $base;
+    border: 1px solid $base;
+    border-radius: 12px;
+    transition: 0.5s all ease-in-out;
+
+    &:hover {
+        cursor: pointer;
+        background-color: $base;
+        color: $highlight;
+        border: 1px solid $highlight;
+    }
+}
