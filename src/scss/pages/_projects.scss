@@ -1,5 +1,9 @@
 .projects {
     padding: 5% 10%;
+    @media screen and (max-width: $tablet-breakpoint){
+        padding: 5% 30%;
+    }
+
     #{&}_title {
         font-family: $highlight-font;
         letter-spacing: 2px;
@@ -13,6 +17,12 @@
 
 .project_card {
     @include flexBetween;
+    @media screen and (max-width: $tablet-breakpoint) {
+        @include flexBetweenCol;
+        gap: 16px;
+        margin: 48px 0;
+    }
+
     gap: 48px;
     margin: 32px 0;
     #{&}_image{
@@ -20,6 +30,10 @@
         height: auto;
         border: 3px solid $highlight;
         border-radius: 8px;
+
+        @media screen and (max-width: $mobile-breakpoint) {
+            width: 300px;
+        }
     }
 
     #{&}_info {
