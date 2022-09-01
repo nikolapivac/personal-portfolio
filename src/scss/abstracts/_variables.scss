@@ -5,6 +5,7 @@ $highlight-font: 'Poiret One', cursive;
 
 //colors
 $base: rgb(177, 189, 193);
+$base-o: rgb(177, 189, 193, 0.6);
 $highlight: rgb(34, 40, 67);
 $white: white;
 $black: rgb(22, 22, 22);
@@ -12,3 +13,7 @@ $black: rgb(22, 22, 22);
 //shadows
 $strong: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 $subtle: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+//responsiveness breakpoints
+$tablet-breakpoint: 900px;
+$mobile-breakpoint: 500px;
