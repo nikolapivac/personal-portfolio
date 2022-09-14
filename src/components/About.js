@@ -21,7 +21,7 @@ const About = () => {
                     web development journey in the real world, and deepen my knowledge.
                 </p>
                 <p>
-                    Let's get in touch. You can check out my <a href="https://github.com/nikolapivac">Github page</a> or contact me <Link className="link" to="/projects">here</Link>.
+                    Let's get in touch. You can check out my <a href="https://github.com/nikolapivac">Github page</a> or contact me <Link className="link" to="/contact">here</Link>.
                 </p>
             </div>
             <div className="about_skills">
