@@ -16,11 +16,11 @@ const About = () => {
                     I always found web development interesting, especially the front-end part. I was
                     introduced to it in some courses at my college, and decided to teach myself how to build 
                     interesting, good looking and responsive websites. I decided to complete <a href="https://www.theodinproject.com/">The Odin Project </a> 
-                    in the summer of 2022 and gained a lot of new <a href="/projects">experiences</a>. Now, I'm ready to start my 
+                    in the summer of 2022 and gained a lot of new <a href="/personal-portfolio/projects">experiences</a>. Now, I'm ready to start my 
                     web development journey in the real world, and deepen my knowledge.
                 </p>
                 <p>
-                    Let's get in touch. You can check out my <a href="https://github.com/nikolapivac">Github page</a> or contact me <a href="/contact">here</a>.
+                    Let's get in touch. You can check out my <a href="https://github.com/nikolapivac">Github page</a> or contact me <a href="/personal-portfolio/contact">here</a>.
                 </p>
             </div>
             <div className="about_skills">
