@@ -27,7 +27,7 @@ const Contact = () => {
                 <h1>send me an e-mail</h1>
                 <a href="https://gmail.com" className="mail">
                     <FontAwesomeIcon icon={faEnvelope} className="mailicon"/>
-                    <p>nikola.pivac98@gmail.com</p>
+                    <p>npivac6@gmail.com</p>
                 </a>
             </div>
         </div>
