@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.09f4d2a3.css",
-    "main.js": "/personal-portfolio/static/js/main.caa22620.js",
+    "main.js": "/personal-portfolio/static/js/main.56e02729.js",
     "static/media/weatherapp.png": "/personal-portfolio/static/media/weatherapp.ff66e82a91a2224eef2e.png",
     "static/media/memory.png": "/personal-portfolio/static/media/memory.aaf9b87336c093801c66.png",
     "static/media/news.png": "/personal-portfolio/static/media/news.b50d8805f982b4ec815c.png",
     "static/media/portfolio.png": "/personal-portfolio/static/media/portfolio.db5c01aaa7d91dc18a12.png",
-    "static/media/Todo.png": "/personal-portfolio/static/media/Todo.0439892c9ae7a5147f47.png",
     "static/media/calculator.png": "/personal-portfolio/static/media/calculator.fb86a987976e2c75d5e7.png",
     "static/media/wineshop.png": "/personal-portfolio/static/media/wineshop.f8360353cc3940bbc1d5.png",
     "static/media/CV.png": "/personal-portfolio/static/media/CV.7bb65ccb497899b797f9.png",
     "static/media/library.png": "/personal-portfolio/static/media/library.17d6f638b7612099d7f4.png",
     "static/media/marvel.png": "/personal-portfolio/static/media/marvel.101364551f4516b273f7.png",
+    "static/media/Todo.png": "/personal-portfolio/static/media/Todo.35a050e7d50a138646b8.png",
     "static/media/home.webp": "/personal-portfolio/static/media/home.800eed00a8de0b083d99.webp",
     "index.html": "/personal-portfolio/index.html",
     "main.09f4d2a3.css.map": "/personal-portfolio/static/css/main.09f4d2a3.css.map",
-    "main.caa22620.js.map": "/personal-portfolio/static/js/main.caa22620.js.map"
+    "main.56e02729.js.map": "/personal-portfolio/static/js/main.56e02729.js.map"
   },
   "entrypoints": [
     "static/css/main.09f4d2a3.css",
-    "static/js/main.caa22620.js"
+    "static/js/main.56e02729.js"
   ]
 }
