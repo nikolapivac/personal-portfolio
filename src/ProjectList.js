@@ -14,7 +14,7 @@ const projects = [
         "id": 1,
         "name": "News App",
         "stack": "HTML, CSS, JavaScript, ReactJS, News API, New York Times API",
-        "desc": "News from all over the world is displayed and sorted into categories. Users can search for articles and bookmark their favorites.",
+        "desc": "News from all over the world is displayed and sorted into categories. Users can search for articles and bookmark their favorites. The Latest News widget is an 'infinite scroll' component.",
         "image": NewsImage,
         "github": "https://github.com/nikolapivac/news-app",
         "live": "https://nikolapivac.github.io/news-app/"
@@ -23,7 +23,7 @@ const projects = [
         "id": 2,
         "name": "Marvel App",
         "stack": "HTML, CSS, JavaScript, ReactJS, Marvel API",
-        "desc": "Users can search for their favorite Marvel Comics characters and bookmark them.",
+        "desc": "Users can search for their favorite Marvel Comics characters and bookmark them. I implemented the bookmark feature by using useContext and custom hooks. Also, this was my first time implementing pagination.",
         "image": MarvelImage,
         "github": "https://github.com/nikolapivac/marvel-app",
         "live": "https://nikolapivac.github.io/marvel-app/"
@@ -31,11 +31,11 @@ const projects = [
     {
         "id": 3,
         "name": "Weather App",
-        "stack": "HTML, CSS, JavaScript, OpenWeather API",
+        "stack": "ReactJS, OpenWeather API",
         "desc": "Users can search for any location in the world and get current weather information and a 5-day forecast. The background image changes based on the weather.",
         "image": WeatherImage,
-        "github": "https://github.com/nikolapivac/weather-app",
-        "live": "https://nikolapivac.github.io/weather-app/"
+        "github": "https://github.com/nikolapivac/weather-react",
+        "live": "https://nikolapivac.github.io/weather-react/"
     },
     {
         "id": 4,
@@ -50,7 +50,7 @@ const projects = [
         "id": 5,
         "name": "The Office Memory Card Game",
         "stack": "ReactJS",
-        "desc": "User has to click on a different character each round. The user can see their current and high score.",
+        "desc": "This one was fun to make. The player has to click on a different character each round. The player can see their current and high score.",
         "image": MemoryImage,
         "github": "https://github.com/nikolapivac/memory-card",
         "live": "https://nikolapivac.github.io/memory-card/"
@@ -75,18 +75,18 @@ const projects = [
     },
     {
         "id": 8,
-        "name": "Todo List App",
-        "stack": "HTML, CSS, JavaScript",
-        "desc": "Simple todo list where users can add independent todos or group them in projects. Todos can be checked off the list, expanded (in order to see details) and deleted.",
+        "name": "To-Do List App",
+        "stack": "ReactJS",
+        "desc": "Every beginner probably has this in their portfolio. Simple To-Do list where users can add and delete tasks.",
         "image": TodoImage,
-        "github": "https://github.com/nikolapivac/todo-list",
-        "live": "https://nikolapivac.github.io/todo-list/"
+        "github": "https://github.com/nikolapivac/todo-list-app",
+        "live": "https://nikolapivac.github.io/todo-list-app/"
     },
     {
         "id": 9,
         "name": "Local Library",
         "stack": "Node.js, Express, Pug, MongoDB, Heroku",
-        "desc": "Users can create, read, update and delete authors, books, book instances and book genres.",
+        "desc": "Users can create, read, update and delete authors, books, book instances and book genres. This project was my introduction to Node.js",
         "image": LibraryImage,
         "github": "https://github.com/nikolapivac/local-library",
         "live": "https://stormy-mountain-77049.herokuapp.com/catalog"
@@ -95,7 +95,7 @@ const projects = [
         "id": 10,
         "name": "Calculator",
         "stack": "HTML, CSS, JavaScript",
-        "desc": "Performs basic operations - addition, subtraction, multiplication and division.",
+        "desc": "This was my first project in JS. It's very basic but you have to start somewhere! Performs basic operations - addition, subtraction, multiplication and division.",
         "image": CalcImage,
         "github": "https://github.com/nikolapivac/calculator",
         "live": "https://nikolapivac.github.io/calculator/"

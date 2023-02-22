@@ -11,7 +11,7 @@ const About = () => {
                 <h1>hello!</h1>
                 <p>
                     I'm Nikola Pivac. I'm a 5th year student studying computer engineering at the <a href="https://www.fesb.unist.hr/">Faculty
-                    of Electrical Engineering, Mechanical Engineering and Naval Architecture</a> in Split, Croatia.
+                    of Electrical Engineering, Mechanical Engineering and Naval Architecture</a> in Split, Croatia. I'm only a Master's thesis away from my diploma.
                 </p>
                 <p>
                     I always found web development interesting, especially the front-end part. I was
@@ -70,9 +70,8 @@ const About = () => {
             </div>
             <div className="about_future">
                 <h1>what's next?</h1>
-                <p>I'm planning on learning other web development Technologies such as
-                    Vue.js, Angular and Bootstrap. I'm only a beginner in back-end web development
-                    so I'm planning on expanding my knowledge of NodeJS and Express.
+                <p>I'm planning on learning other web development technologies and diving deeper into backend. With every new project, I'm trying to learn something new.
+
                 </p>
                 <p>
                     I find Artificial Intelligence very interesting. My <a href="https://github.com/nikolapivac/ANPR">bachelor's thesis</a> was based
