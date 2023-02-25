@@ -13,7 +13,7 @@ const projects = [
     {
         "id": 1,
         "name": "News App",
-        "stack": "HTML, CSS, JavaScript, ReactJS, News API, New York Times API",
+        "stack": "ReactJS, News API, New York Times API",
         "desc": "News from all over the world is displayed and sorted into categories. Users can search for articles and bookmark their favorites. The Latest News widget is an 'infinite scroll' component.",
         "image": NewsImage,
         "github": "https://github.com/nikolapivac/news-app",
@@ -22,7 +22,7 @@ const projects = [
     {
         "id": 2,
         "name": "Marvel App",
-        "stack": "HTML, CSS, JavaScript, ReactJS, Marvel API",
+        "stack": "ReactJS, Marvel API",
         "desc": "Users can search for their favorite Marvel Comics characters and bookmark them. I implemented the bookmark feature by using useContext and custom hooks. Also, this was my first time implementing pagination.",
         "image": MarvelImage,
         "github": "https://github.com/nikolapivac/marvel-app",
