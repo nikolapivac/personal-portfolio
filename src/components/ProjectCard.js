@@ -13,7 +13,7 @@ const ProjectCard = ({project}) => {
                 <p><strong>Description: </strong>{project.desc}</p>
                 <div className="card_btns">
                     <a href={project.github}><button className="card_btn"><FontAwesomeIcon icon={faGithub} />&nbsp;&nbsp;Code</button></a>
-                    <a href={project.live}><button className="card_btn"><FontAwesomeIcon icon={faEye} />&nbsp;&nbsp;Live</button></a>
+                    {project.live !== "" && <a href={project.live}><button className="card_btn"><FontAwesomeIcon icon={faEye} />&nbsp;&nbsp;Live</button></a>}
                 </div>
             </div>
         </div>

@@ -1,7 +1,7 @@
 .projects {
     padding: 5% 10%;
     @media screen and (max-width: $tablet-breakpoint){
-        padding: 5% 30%;
+        padding: 5% 15%;
     }
 
     #{&}_title {
@@ -10,6 +10,21 @@
         font-size: 48px;
         color: $highlight;
     }
+
+    p {
+        font-family: $primary-font;
+        letter-spacing: 1px;
+        font-size: 16px;
+        color: $highlight;
+    }
+
+    a, .link {
+        color: $base-s;
+        &:hover{
+            color: $highlight;
+        }
+    }
+
     #{&}_container{
         @include flexCenter(column);
     }
